@@ -199,7 +199,12 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
-
-
+let total = 0;
+numArrays.forEach(function(numArray) {
+    numArray.forEach(function(numb) {
+      total += numb;
+    });
+});
+//expected total = 534
 
 console.log('Exercise 15 Result:\n', total);
