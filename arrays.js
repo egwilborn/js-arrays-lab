@@ -98,7 +98,13 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
-
+foods.push("soup");
+let hasSoup = null;
+if (foods.includes("soup")) {
+    hasSoup = true;
+} else {
+    hasSoup = false;
+}
 
 
 console.log('Exercise 10 Result:\n', hasSoup);
