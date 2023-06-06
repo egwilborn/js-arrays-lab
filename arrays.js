@@ -66,8 +66,7 @@ Exercise 7:
 */
 
 // Complete Exercise 7 below...
-
-
+const yummy = foods.slice(1,3);
 
 console.log('Exercise 7 Result:\n', yummy);
 
