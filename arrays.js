@@ -176,10 +176,10 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-
+const numList = numArrays[numArrays.length-1];
 
 console.log('Exercise 13 Result:\n', numList);
-
+//expected numList = [ 7, 81, 90]
 /*
 Exercise 14:
   - Given the above numArrays array, access the number 66 and assign to a variable named num.
