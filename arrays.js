@@ -141,7 +141,19 @@ Exercise 12:
 */
 
 // Complete Exercise 12 below...
-
+const fizz = [];
+const buzz = [];
+const fizzbuzz = [];
+nums.forEach(function(num) {
+if (num % 3 === 0 && num % 5 === 0) {
+    fizzbuzz.push(num);
+} else if (num % 3 === 0) {
+    fizz.push(num);
+} else if (num % 5 === 0) {
+    buzz.push(num);
+}
+});
+//expectation: fizzbuzz =[15, 45, 90]; fizz = [21, 72, 9, 66, 81]; buzz = [100, 5];
 
 
 console.log('Exercise 12 Results:');
