@@ -98,7 +98,7 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
-foods.push("soup");
+//foods.push("soup");
 let hasSoup = null;
 if (foods.includes("soup")) {
     hasSoup = true;
@@ -118,8 +118,17 @@ Exercise 11:
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
-
-
+//1 define odds array
+//2 iterate over nums
+//3 determine if each number is odd or even at each iteration
+//4 push the number to odds array if it's odd
+const odds = [];
+nums.forEach(function(num) {
+    if (num % 2 !==0) {
+        odds.push(num);
+    }
+});
+//expected odds =[5, 23, 15, 21, 9, 45, 7, 81]
 
 console.log('Exercise 11 Result:\n', odds);
 
