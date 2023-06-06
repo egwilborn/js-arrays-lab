@@ -15,9 +15,7 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
-
-
-
+foods.push("pizza", "cheeseburger");
 console.log('Exercise 2 Result:\n',  foods);
 
 /*
@@ -27,13 +25,12 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
-
 console.log('Exercise 3 Result:\n', foods);
 
 /*
 Exercise 4:
-  - Access the string 'pizza' (based upon its known position) in the foods array and assign to a variable named favFood.
+  - Access the string 'pizza' (based upon its known position) in the foods array and assign 
+  to a variable named favFood.
 */
 
 // Complete Exercise 4 below...
