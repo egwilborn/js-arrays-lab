@@ -76,8 +76,7 @@ Exercise 8:
 */
 
 // Complete Exercise 8 below...
-
-
+const soyIdx = foods.indexOf("tofu");
 
 console.log('Exercise 8 Result:\n', soyIdx);
 
